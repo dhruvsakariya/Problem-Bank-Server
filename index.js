@@ -38,3 +38,5 @@ app.use('/', proxy);
 app.listen(port, () => {
     console.log(`Proxy server listening on port ${port}`);
 });
+
+module.exports = app;
